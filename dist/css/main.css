@@ -100,6 +100,9 @@ main {
 #about p {
     font-size: 1.3rem;
     font-weight: 300;
+    text-indent: 50px;
+    text-align: justify;
+    
 }
 #skills {
     color: white;
@@ -146,9 +149,32 @@ main {
 }
 
 /* C++ */
-.prog-grid1 h3{
+.prog-grid1{
 
     color: yellowgreen ;
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.prog-grid3{
+    color: yellowgreen;
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+
+}
+
+.prog-grid2{
+    color: chocolate;
+
+}
+.prog-grid4{
+    color: chocolate;
 }
 
 .prog-grid1 p{
@@ -201,12 +227,11 @@ main {
 }
 
 /*Send me a message*/
-
-
 .portfolio-form{
     padding-top: 15px;
-    background: black;
+    background:lightslategray;
     align-items: center;
+    
 }
 
 .portfolio-form h2{
@@ -216,7 +241,7 @@ main {
     margin: 0;
     padding-bottom: 30px;
     text-align: center;
-    color: chartreuse;
+    color: #000;
     padding-left: 10px;
     
 }
@@ -224,7 +249,7 @@ main {
 .form-label{
     color: #fff;
     padding-bottom: 15px;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 
@@ -234,7 +259,7 @@ main {
     padding: 7px 20px;
     border-radius: 8px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 50px;
 
 }
 
@@ -251,8 +276,8 @@ main {
     border-radius: 10px;
     width: 85%;
     padding: 7px 0px;
-    margin-left: 25px;
-    margin-right: -25px;
+    margin-left: 50px;
+    margin-right: -50px;
     height: 200px;
 
 }
@@ -268,7 +293,7 @@ main {
 .form-submit{
     margin: 100;
 	padding: 0;
-    background: #000;
+    background: lightslategray;
     text-align: center;
     
 }

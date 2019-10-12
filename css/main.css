@@ -1,0 +1,369 @@
+html {
+    margin: 0;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    top: 0;
+    right: 0;
+}
+
+/*image background HERO-WEB*/
+.portfolio-hero {
+    background: url(../img/hero-web.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover; 
+    text-align: center;
+    color: rgb(7, 5, 5);
+}
+
+
+.portfolio-menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.34rem;
+}
+
+
+.portfolio-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+/*Home, About, Skills, Contact*/
+.portfolio-menu .menu-item a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+
+}
+
+
+/**/
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+/*image ME*/
+.portfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+/*Neil Kenneth Sapungan*/
+.portfolio-profile h1 {
+    font-weight: 9000;
+    margin: 15px;
+    font-size: 2.2rem;
+    font-family: cursive;
+}
+
+/*BSIT*/
+.portfolio-profile h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 2.2rem;
+}
+
+/* MAIN */
+main {
+    margin: 0;
+    padding: 0;
+    background-color: #1A2328;
+    text-align: center;
+}
+#about {
+    padding: 45px;
+    color: white;
+}
+
+/*About Me*/
+#about h2{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+/*About Me - paragraph*/
+#about p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-indent: 50px;
+    text-align: justify;
+    
+}
+#skills {
+    color: white;
+     background-color: darkslategrey; 
+    padding-top: 15px;
+}
+
+/*Skills*/
+#skills h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+/*Web Designer, Web Developer, Programmer, Debbugger*/
+#skills h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.skill-main-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+}
+
+.skill-main-grid h2 {
+    font-size: 1.5rem;
+    
+}
+
+.prog-main-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    
+    
+}
+
+#prog {
+    color:white;
+    padding-bottom: 200px;
+}
+
+/* C++ */
+.prog-grid1{
+
+    color: yellowgreen ;
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.prog-grid3{
+    color: yellowgreen;
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+
+}
+
+.prog-grid2{
+    color: chocolate;
+
+}
+.prog-grid4{
+    color: chocolate;
+}
+
+.prog-grid1 p{
+    text-align: left;
+}
+
+
+
+.skill-grid1{
+    color: chocolate;
+
+   padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.skill-grid2{
+    color: rgb(231, 235, 22);
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+.skill-grid3{
+    color: darkorange;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.skill-grid4{
+    color: rgb(216, 228, 59);
+    border: 3px solid;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+.form-label{
+    padding: 10px 0px;
+    font-size: 1.3rem
+}
+.portpolio-form{
+    background-color: darkkhaki;
+    text-align: center;
+    color: aliceblue;
+    padding: 30px 450px;
+}
+
+/*Send me a message*/
+.portfolio-form{
+    padding-top: 15px;
+    background:lightslategray;
+    align-items: center;
+    
+}
+
+.portfolio-form h2{
+    font-family: monospace;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #000;
+    padding-left: 10px;
+    
+}
+
+.form-label{
+    color: #fff;
+    padding-bottom: 15px;
+    margin-left: 50px;
+}
+
+
+
+.form-input input{
+    width: 50%;
+    padding: 7px 20px;
+    border-radius: 8px;
+    text-align: left;
+    margin-left: 50px;
+
+}
+
+.form-input input:focus{
+    transition: .7s;
+    border-color: aqua;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+
+}
+.form-input-textarea{
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    width: 85%;
+    padding: 7px 0px;
+    margin-left: 50px;
+    margin-right: -50px;
+    height: 200px;
+
+}
+
+.form-input-textarea textarea:focus{
+    transition: .7s;
+    border-color: antiquewhite;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+
+}
+
+.form-submit{
+    margin: 100;
+	padding: 0;
+    background: lightslategray;
+    text-align: center;
+    
+}
+
+
+/*Submit*/
+.btn-submit{
+    padding: 15px 35px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration-color: none;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size: 400%;
+	border-radius: 30px;
+	z-index: 1;
+
+
+}
+.btn-submit:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+		background-position: 0%;
+	}
+
+	100%{
+		background-position: 400%;
+	}
+}
+
+.btn-submit:before{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size: 400%;
+	border-radius: 40px;
+	filter: blur(30px);
+	opacity: 3;
+	transition: 0.5s;
+
+}
+.btn-submit:hover:before{
+	filter: blur(20px);
+	opacity: 1;
+	animation: animate 8s linear infinite;
+}
+
+/*Copyright*/
+.footer{ 
+    color:white;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    font-weight: 900;
+
+}

@@ -1,16 +1,24 @@
 {
   "name": "single-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000w\u0000e\u0000b\u0000l\u0000o\u0000g\u0000\r\u0000 \u0000",
   "main": "index.js",
   "homepage": "https://github.io/NeilKennethSapungan/single-portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy" : "gh-pages -d dist" 
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilKennethLSapungan/single-portfolio.git"
   },
   "author": "Neil Kenneth Sapungan",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/NeilKennethLSapungan/single-portfolio/issues"
+  },
+  "devDependencies": {}
 }
